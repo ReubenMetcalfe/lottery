@@ -1,0 +1,10 @@
+import math.randint
+users = []
+
+for x in email_list:
+	users.append(x)
+	
+def run_the_numbers():
+	result = randint(0,len(users))
+	print "And the winner is", users[result]
+
